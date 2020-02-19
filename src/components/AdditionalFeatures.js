@@ -20,9 +20,9 @@ const AdditionalFeatures = props => {
   );
 };
 
-const mapStateToProps = (initialState) => {
+const mapStateToProps = (state) => {
   return {
-    additionalFeatures: initialState.additionalFeatures
+    additionalFeatures: state.additionalFeatures
   };
 };
 
